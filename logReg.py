@@ -39,6 +39,6 @@ class logistic():
         accuracy = np.sum((yPredicted - testDataY) == 0) / len(yPredicted)
         return accuracy
 
-logObj = logistic(100)
-acc = logObj.run()
-print('final accuracy by logistic regression is ',acc)
+#logObj = logistic(100)
+#acc = logObj.run()
+#print('final accuracy by logistic regression is ',acc)
